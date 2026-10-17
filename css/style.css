@@ -1,0 +1,36 @@
+*{
+      font-family: "Bebas Neue", sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menuWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.menubar ul{
+    display: flex;
+    gap:25px
+}
+
+.menubar ul li a{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.menuButton button{
+    background-color: teal;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+
+}
